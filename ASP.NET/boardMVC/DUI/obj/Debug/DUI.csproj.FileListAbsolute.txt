@@ -1,0 +1,6 @@
+C:\ASP.NET\boardMVC\DUI\bin\Debug\DUI.dll
+C:\ASP.NET\boardMVC\DUI\bin\Debug\DUI.pdb
+C:\ASP.NET\boardMVC\DUI\obj\Debug\DUI.dll
+C:\ASP.NET\boardMVC\DUI\obj\Debug\DUI.pdb
+C:\ASP.NET\boardMVC\DUI\obj\Debug\DUI.csprojAssemblyReference.cache
+C:\ASP.NET\boardMVC\DUI\obj\Debug\DUI.csproj.CoreCompileInputs.cache
