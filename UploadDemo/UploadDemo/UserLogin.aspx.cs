@@ -64,14 +64,14 @@ namespace UploadDemo
             }
             return result;
         }
-        public string findinglevel(string userID)
+        public void finding(string userID)
         {
             String level = "";
-
+            String name = "";
             OracleConnection con = new OracleConnection();
             con.ConnectionString = str;
             OracleCommand cmd = new OracleCommand();
-            cmd.CommandText = string.Format("Select userlevel from phoneUser where userID = '{0}'", userID);
+            cmd.CommandText = string.Format("Select userlevel, username from phoneUser where userID = '{0}'", userID);
             cmd.CommandType = CommandType.Text;
             cmd.Connection = con;
           //Model 자체를 안 만들면 OracleDataReader를 쓸 때 자꾸 read가 안됨.
@@ -81,7 +81,8 @@ namespace UploadDemo
                 OracleDataReader reader = cmd.ExecuteReader();
                 while(reader.Read())
                 {
-                    level = reader[0].ToString();
+                    Session["level"] = reader[0].ToString();
+                    Session["userName"] = reader[1].ToString();
                 }
                 reader.Close();
                 reader.Dispose();
@@ -95,8 +96,6 @@ namespace UploadDemo
                 con.Dispose();
             }
 
-
-            return level;
         }
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -118,7 +117,7 @@ namespace UploadDemo
                 {
                     FormsAuthentication.RedirectFromLoginPage(userID, false);
                     Session["logged_in"] = 1;
-                    Session["level"] =findinglevel(Session["userID"].ToString());
+                    finding(Session["userID"].ToString());
                 }
                 else
                 {
