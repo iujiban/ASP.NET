@@ -31,7 +31,7 @@ namespace UploadDemo
                 con.ConnectionString = str;
                 OracleCommand cmd = new OracleCommand();
 
-                cmd.CommandText = string.Format("INSERT INTO phoneUser values (phoneUser_seq.nextval, '{0}', '{1}', '{2}', 'BASIC')", txtName, txtUser, txt_password);
+                cmd.CommandText = string.Format("INSERT INTO phoneUser values (phoneUser_seq.nextval, '{0}', '{1}', '{2}', 'SMART')", txtName, txtUser, txt_password);
                 cmd.CommandType = CommandType.Text;
                 cmd.Connection = con;
 

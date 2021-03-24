@@ -6,21 +6,28 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.IO;
 using System.Data.OracleClient;
-using System.IO;
 using System.Data.OleDb;
 using System.Data;
+using Excel = Microsoft.Office.Interop.Excel;
+
 
 namespace UploadDemo
 {
+    
     public partial class IExportUpload : System.Web.UI.Page
     {
         //Downolad Important coding.Link Given in Description
         static string ExcelPath;
         private string _BaseDir = string.Empty;
         private string str = "Data Source=spectra; User ID = spectra; Password = artceps;";
+
+        //
+        static Excel.Application excelApp = null;
+        static Excel.Workbook workBook = null;
+        static Excel.Worksheet whorkSheet = null;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
        
         private void fileSave ()
@@ -136,6 +143,7 @@ namespace UploadDemo
                 ReceiveTime = string.Format("{0:HH:mm}", Convert.ToDateTime(dr[7].ToString()));
                 EndDate = string.Format("{0:yyyy/MM/dd}", Convert.ToDateTime(dr[8].ToString()));
                 EndCall = string.Format("{0:HH:mm}", Convert.ToDateTime(dr[9].ToString()));
+                
                 OffDutyTime = dr[10].ToString();
 
                 if (Convert.ToDateTime(ReceiveDate).Date == Convert.ToDateTime(EndDate).Date)

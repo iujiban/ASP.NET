@@ -3,6 +3,5 @@ D:\ASP.NET\UploadDemo\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
 D:\ASP.NET\UploadDemo\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
 D:\ASP.NET\UploadDemo\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 D:\ASP.NET\UploadDemo\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
-D:\ASP.NET\UploadDemo\ClassLibrary1\obj\Debug\ClassLibrary1.csprojAssemblyReference.cache
 D:\ASP.NET\UploadDemo\ClassLibrary1\bin\Debug\Oracle.DataAccess.dll
 D:\ASP.NET\UploadDemo\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
