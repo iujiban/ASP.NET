@@ -1,0 +1,6 @@
+D:\ASP.NET\LocalHostWCF\localHost\MemoEngine.Database\bin\Debug\MemoEngine.Database.dacpac
+D:\ASP.NET\LocalHostWCF\localHost\MemoEngine.Database\bin\Debug\MemoEngine.Database.dll
+D:\ASP.NET\LocalHostWCF\localHost\MemoEngine.Database\bin\Debug\MemoEngine.Database.pdb
+D:\ASP.NET\LocalHostWCF\localHost\MemoEngine.Database\obj\Debug\MemoEngine.Database.sqlprojAssemblyReference.cache
+D:\ASP.NET\LocalHostWCF\localHost\MemoEngine.Database\obj\Debug\MemoEngine.Database.dll
+D:\ASP.NET\LocalHostWCF\localHost\MemoEngine.Database\obj\Debug\MemoEngine.Database.pdb

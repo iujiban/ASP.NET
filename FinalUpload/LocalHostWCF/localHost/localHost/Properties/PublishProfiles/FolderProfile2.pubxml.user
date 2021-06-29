@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\www\localhost.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/localHost.mdf">
+      <publishTime>04/14/2021 10:20:17</publishTime>
+    </File>
+    <File Include="App_Data/localHost_log.ldf">
+      <publishTime>04/14/2021 10:20:17</publishTime>
+    </File>
+    <File Include="App_Data/Server.mdf">
+      <publishTime>04/14/2021 15:46:22</publishTime>
+    </File>
+    <File Include="App_Data/Server_log.ldf">
+      <publishTime>04/14/2021 15:46:23</publishTime>
+    </File>
+    <File Include="bin/BouncyCastle.Crypto.dll">
+      <publishTime>01/31/2019 19:53:56</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.dll">
+      <publishTime>11/13/2020 15:09:34</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.pdb">
+      <publishTime>11/13/2020 20:57:28</publishTime>
+    </File>
+    <File Include="bin/K4os.Compression.LZ4.dll">
+      <publishTime>07/03/2019 22:59:30</publishTime>
+    </File>
+    <File Include="bin/K4os.Compression.LZ4.Streams.dll">
+      <publishTime>07/03/2019 22:59:32</publishTime>
+    </File>
+    <File Include="bin/K4os.Hash.xxHash.dll">
+      <publishTime>07/03/2019 20:39:02</publishTime>
+    </File>
+    <File Include="bin/localHost.dll">
+      <publishTime>06/18/2021 15:19:04</publishTime>
+    </File>
+    <File Include="bin/localHost.pdb">
+      <publishTime>06/18/2021 15:19:04</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>04/27/2021 10:45:58</publishTime>
+    </File>
+    <File Include="bin/Oracle.DataAccess.dll">
+      <publishTime>08/25/2008 15:27:32</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>02/19/2020 10:05:18</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>04/17/2019 16:24:34</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>07/19/2017 10:01:36</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>09/18/2018 19:38:10</publishTime>
+    </File>
+    <File Include="bin/Ubiety.Dns.Core.dll">
+      <publishTime>04/27/2021 10:45:04</publishTime>
+    </File>
+    <File Include="bin/Zstandard.Net.dll">
+      <publishTime>04/27/2021 10:45:04</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>04/12/2021 13:28:57</publishTime>
+    </File>
+    <File Include="Service2.svc">
+      <publishTime>06/17/2021 16:28:49</publishTime>
+    </File>
+    <File Include="Service3.svc">
+      <publishTime>04/26/2021 09:58:54</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/17/2021 16:49:52</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
